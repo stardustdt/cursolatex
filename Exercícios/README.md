@@ -1,4 +1,4 @@
-# Exercícios Auxiliares
+# Exercício Auxiliares
 
 ---
 
@@ -32,6 +32,8 @@ DICA: utilize `\textbackslash` para a contra-barra.
 3. Criar uma subseção chamada "Definição de Integral" e escrevê-la
 
 ![Exercício4p1](./assets/ex41.png)
+
+
 ![Exercício4p2](./assets/ex42.png)
 
 
@@ -51,6 +53,8 @@ OBS: Formas gerais, aquela basicona lá.
 ### Exercício 7
 
 1. Desenvolver a forma geral até a fórmula quadrática usando align.
+
+
 ![Exercício7](./assets/ex7.png)
 
 ### Exercício 8
