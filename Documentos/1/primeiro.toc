@@ -1,0 +1,8 @@
+\babel@toc {portuguese}{}
+\contentsline {section}{\numberline {1}\textsc {Primeiros passos}}{3}%
+\contentsline {subsection}{\numberline {1.1}Texto Simples}{3}%
+\contentsline {subsection}{\numberline {1.2}Tamanhos e Tipos de Textos}{3}%
+\contentsline {section}{\numberline {2}Ambientes}{3}%
+\contentsline {section}{\numberline {3}Notas de Rodapé}{4}%
+\contentsline {section}{\numberline {4}Texto Matemático}{4}%
+\contentsline {section}{\numberline {5}Adicionando Imagens}{5}%
