@@ -1,8 +1,10 @@
 \babel@toc {portuguese}{}
-\contentsline {section}{\numberline {1}\textsc {Primeiros passos}}{3}%
-\contentsline {subsection}{\numberline {1.1}Texto Simples}{3}%
-\contentsline {subsection}{\numberline {1.2}Tamanhos e Tipos de Textos}{3}%
-\contentsline {section}{\numberline {2}Ambientes}{3}%
-\contentsline {section}{\numberline {3}Notas de Rodapé}{4}%
-\contentsline {section}{\numberline {4}Texto Matemático}{4}%
-\contentsline {section}{\numberline {5}Adicionando Imagens}{5}%
+\contentsline {section}{\numberline {1}\textsc {Primeiros passos}}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Texto Simples}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tamanhos e Tipos de Textos}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Ambientes}{3}{section.2}%
+\contentsline {section}{\numberline {3}Notas de Rodapé}{4}{section.3}%
+\contentsline {section}{\numberline {4}Texto Matemático}{4}{section.4}%
+\contentsline {section}{\numberline {5}Adicionando Imagens}{5}{section.5}%
+\contentsline {section}{\numberline {6}Formatação Avançada}{5}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Matemática Alinhada}{5}{subsection.6.1}%

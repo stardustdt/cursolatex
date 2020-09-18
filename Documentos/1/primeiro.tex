@@ -6,19 +6,29 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \author{Eduardo Adame}
 \title{Primeiro Documento Curso \LaTeX}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=red,
+}
 \begin{document}
 \maketitle
 \newpage
 \tableofcontents
+\listoffigures
 \newpage
 \section{\textsc{Primeiros passos}}
 
 \subsection{Texto Simples}
 \label{ss:ts}
 Hoje é um dia feliz, estou começando no \LaTeX .\\
-
 
 \subsection{Tamanhos e Tipos de Textos}
 % Utilizar \textbf{} (ou derivados) com texto dentro das chaves para alterar o tipo. É possivel utilizar mais que um.
@@ -75,12 +85,53 @@ Olhando para a equação \eqref{eq:doida}, você vê que eu não sei nada. Lembr
 \newpage
 \section{Adicionando Imagens}
 
-OLHE ESTA IMAGEM
+Ao olhar a imagem \ref{fi:bacana}, o que vem à sua mente?
 \begin{figure}[!h]
 \centering
-\includegraphics[width=.8\textwidth]{1.jpg}
-\caption{Figura Inexistente}
+\includegraphics[width=.84\textwidth]{1.jpg}
+\caption{LEGENDA BACANA}
+\label{fi:bacana}
 \end{figure}
+
+\section{Formatação Avançada}
+\subsection{Matemática Alinhada}
+\begin{align*}
+x^2 &= 4 & x^3 &= 8\\
+x &= \pm \sqrt{4} & x &= \sqrt[3]{8}\\
+x &=\pm 2 & x &= 2
+\end{align*}
+
+\begin{tabular}{|c|c|c|}
+\hline
+Eduardo & adame & salles\\
+\hline
+Ruan & de freitas & costa\\
+\hline
+Stênio & xavier & F. Filho\\
+\hline
+\end{tabular}
+
+\newpage
+% \url{https://www.tablesgenerator.com/}
+ESSA TABELA É IRADA
+\begin{table}[!h]
+\centering
+\resizebox{.8\textwidth}{!}{%
+\begin{tabular}{|l|l|l|}
+\hline
+\rowcolor[HTML]{FE0000} 
+{\color[HTML]{FFFFFF} Chamada} & \multicolumn{2}{l|}{\cellcolor[HTML]{FE0000}{\color[HTML]{FFFFFF} Nomes}} \\ \hline
+\rowcolor[HTML]{FD6864} 
+{\color[HTML]{000000} 7} & \multicolumn{1}{r|}{\cellcolor[HTML]{FD6864}{\color[HTML]{000000} Eduardo}} & \multicolumn{1}{r|}{\cellcolor[HTML]{FD6864}{\color[HTML]{000000} Adame}} \\ \hline
+\rowcolor[HTML]{FD6864} 
+{\color[HTML]{000000} 8} & {\color[HTML]{000000} Felipe} & {\color[HTML]{000000} Frederico} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
+\url{https://www.tablesgenerator.com/}
+ESTE É UM \href{http://www.sharelatex.com}{UM LINK BACANA}
 \end{document}
 
 
